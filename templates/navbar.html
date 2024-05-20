@@ -1,0 +1,108 @@
+ <!-- Top Bar Start -->
+ <div class="top-bar">
+  <div class="container ">
+      <div class="row">
+          <div class="col-md-6">
+              <div class="tb-contact">
+                  <p><i class="fas fa-envelope"></i>{{org.email}}</p>
+                  <p><i class="fas fa-phone-alt"></i>{{org.contact}}</p>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="tb-menu">
+                  <a href="">About</a>
+                  <a href="">Privacy</a>
+                  <a href="">Terms</a>
+                  <a href="">Contact</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Top Bar Start -->
+
+<!-- Brand Start -->
+<div class="brand">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-lg-4 col-md-4">
+              <div class="b-ads">
+                  <span style=" padding: 1px 0px 0px 6px; border-radius:3px; height:50px; background-color: #DFF5FF; width:175px; display:block;">
+                      <iframe scrolling="no" border="0" frameborder="0" marginwidth="0" marginheight="0" allowtransparency="true" src="https://www.ashesh.com.np/linknepali-time.php?time_only=no&font_color=666666&aj_time=yes&font_size=12&line_brake=1&api=510145o085" width="175" height="45"></iframe></span>
+                  
+                  
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-4 ">
+              <div class="b-logo">
+                  <a href="index.html">
+                      <img src="{{org.logo.url}}" alt="Logo">
+                      
+                  </a>
+              </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-4">
+              <div class="b-search">
+                  <input type="text" placeholder="Search">
+                  <button><i class="fa fa-search"></i></button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Brand End -->
+
+<!-- Nav Bar Start -->
+<div class="nav-bar">
+  <div class="container">
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+          <a href="#" class="navbar-brand">MENU</a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+              <div class="navbar-nav mr-auto">
+                  <a href="{% url 'content:home' %}" class="nav-item nav-link  ">होम </a>
+                  <a href="#" class="nav-item nav-link  ">समाचार </a>
+                  
+                  <a href="#" class="nav-item nav-link ">चर्चामा </a>
+                  <a href="#" class="nav-item nav-link ">राजनिती </a>
+                  <a href="#" class="nav-item nav-link ">अर्थ </a>
+                  <a href="#" class="nav-item nav-link ">मनाेरंजन </a>
+                  <a href="#" class="nav-item nav-link ">खेलकुद </a>
+                  <a href="#" class="nav-item nav-link ">प्रविधिक</a>
+                  
+                  <div class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">प्रदेश</a>
+                      <div class="dropdown-menu">
+                          <a href="#" class="dropdown-item">प्रदेश न.१</a>
+                          <a href="#" class="dropdown-item">प्रदेश न.२ </a>
+                          <a href="#" class="dropdown-item">प्रदेश न.३ </a>
+                          <a href="#" class="dropdown-item">प्रदेश न.४ </a>
+                          <a href="#" class="dropdown-item">प्रदेश न.५ </a>
+                          <a href="#" class="dropdown-item">प्रदेश न.६ </a>
+                          <a href="#" class="dropdown-item">प्रदेश न.७ </a>
+                      </div>
+                  </div>
+                  <a href="#" class="nav-item nav-link ">बिचार</a>
+                  
+                  <a href="#" class="nav-item nav-link">अन्तरष्ट्रिय</a>
+                  <a href="#" class="nav-item nav-link">अन्य</a>
+                  <a href="#" class="nav-item nav-link">अन्तर्वाता/भिडियाे</a>
+                  
+                  <a href="{% url 'content:contact' %}" class="nav-item nav-link">सम्पर्क</a>
+              </div>
+              <div class="social ml-auto">
+                  <a href="{{org.twiter}}"><i class="fab fa-twitter"></i></a>
+                  <a href="{{org.facebook}}"><i class="fab fa-facebook-f"></i></a>
+                  <a href="{{org.linkdin}}"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="{{org.instagram}}"><i class="fab fa-instagram"></i></a>
+                  <a href="{{org.youtube}}"><i class="fab fa-youtube"></i></a>
+              </div>
+          </div>
+      </nav>
+  </div>
+</div>
+<!-- Nav Bar End -->
